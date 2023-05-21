@@ -7,8 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <chakraProvider>
-     <App />
-    </chakraProvider>  
+    <App />
+    </chakraProvider>
   </React.StrictMode>
 );
 

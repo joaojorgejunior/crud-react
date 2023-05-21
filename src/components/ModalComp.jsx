@@ -34,6 +34,7 @@ const ModalComp =({data,setdata,dataEdit,isOpen,onClose}) =>{
     ?[...(data ? data : []), {name,email}]
     :[...(data ? data:[])];
     localStorage.setItem("card_cliente",JSON.stringify(newDataArray));
+    
     setData(newDataArray);
     onClose();
  };
